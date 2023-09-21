@@ -448,7 +448,7 @@ if __name__ == '__main__':
     '''
 
     # ============================= Farzane Added: September 18 2023 =============================
-    spp_alt, spt_alt = sp.detAlternative(spp, spt, [[3, 16], [16, 12]], [10, 40])  # update based the malfunction time
+    spp_alt, spt_alt = sp.detAlternative(spp, spt, [[3, 16], [16, 12]], [10, 30])  # update based the malfunction time
     print(spp_alt[0][13], spt_alt[0][13])
 
     '''
